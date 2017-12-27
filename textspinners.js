@@ -12,7 +12,6 @@ var TextSpinner;
             this.k1 = ['◷', '◶', '◵', '◴'];
             this.k2 = ['◓', '◑', '◒', '◐'];
             this.k3 = ['◝', '◞', '◟', '◜'];
-            // k4 = ['▁', '▂', '▃', '▅', '▆', '▇'];
             this.k4 = ['▂', '▃', '▅', '▆', '▇'];
         }
         Spinner.prototype.animate = function (SpinnerType, element, time) {
